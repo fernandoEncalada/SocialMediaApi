@@ -27,16 +27,13 @@ public class User implements Serializable {
     private String username;
 
     @Column
-    private String accountId;
-
-    @Column
     private String email;
 
     @Column
-    private String bio;
+    private String password;
 
     @Column
-    private String imageId;
+    private String bio;
 
     @Column
     private String imageUrl;
